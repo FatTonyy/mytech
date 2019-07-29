@@ -1,0 +1,107 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+/* carousel section */
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../img/image1.jpg') no-repeat center center/cover;
+}
+.carousel-image-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/image2.jpg') no-repeat center center/cover;
+}
+.carousel-image-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/image3.jpg') no-repeat center center/cover;
+}
+
+/* head home section */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/lights.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+}
+
+/* .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.5);
+} */
+
+/* video replay section */
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/media.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+
+  /* moving it up a little */
+  background-position: 0 -300px;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+/* page ssection in about.html */
+#page-header {
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/image2.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  /* the background position 0 -360px moves the image up in the header */
+  background-position: 0 -360px;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+/* pushing img up in about */
+.about-img {
+  margin-top: -50px;
+}
+
+/* chnaging colors of the accordion */
+#faq .card {
+  border: #444;
+}
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
